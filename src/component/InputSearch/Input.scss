@@ -1,0 +1,36 @@
+.input {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 100px 50px;
+	input {
+		width: 80%;
+		height: 50px;
+		border: 1px solid #ccc;
+		background-color: rgba(0, 0, 0, 0.466);
+		font-size: 1.5em;
+		color: white;
+		padding: 10px;
+		::placeholder {
+			color: white;
+			font-size: 1em;
+		}
+
+		:focus {
+			color: burlywood;
+			border: none;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: white;
+		padding: 14px;
+		cursor: pointer;
+		border: 1px solid #ccc;
+		background-color: white;
+		border-radius: 5px;
+	}
+	img {
+		width: 40px;
+	}
+}

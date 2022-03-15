@@ -1,0 +1,37 @@
+.card {
+	width: 500px;
+	background-color: rgba(0, 0, 0, 0.466);
+	margin-left: 30%;
+	padding: 10px 0 0 0;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+	.details {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+		.details-card-left {
+			display: flex;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.details-card-right {
+			h4 {
+				margin: 0;
+				padding: 5px;
+			}
+		}
+	}
+	.region {
+		display: flex;
+		justify-content: center;
+		gap: 80px;
+		background-color: black;
+		overflow: hidden;
+		border-radius: 0 0 15px 15px;
+	}
+	img {
+		width: 150px;
+	}
+}

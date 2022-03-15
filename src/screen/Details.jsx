@@ -31,7 +31,7 @@ function Details() {
     console.log(details)
   return (
       <div className="container">
-         <a><FaHome size='4em' color='white' onClick={() =>{
+         <a><FaHome className='icon' size='4em' color='white' onClick={() =>{
               navigate('/')
           }} /></a>
      <div className="containerCard">

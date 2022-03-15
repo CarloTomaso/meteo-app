@@ -17,8 +17,8 @@ function Card({name,region,country,degree,img,humidity,wind,text}) {
                 <p>{text}</p>  
         </div>
         <div className="details-card-right">
-            <h4>Humidity: {humidity}%</h4>
-            <h4>wind: {wind} mph</h4>
+            <h4>Humidity : {humidity}%</h4>
+            <h4>wind : {wind} mph</h4>
         </div>
         </div>
         <div className="region">

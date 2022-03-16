@@ -13,4 +13,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	justify-content: center;
+	transition: all 0.4s;
+}
+.hot {
+	background-image: url("https://www.altroconsumo.it/-/media/altroconsumo/images/home/vita%20privata%20e%20famiglia/viaggiare%20e%20tempo%20libero/ondata_di_caldo_800x450.jpg?rev=d91a9a97-b14e-4ef2-9076-38ab94c06c8b&hash=C73977C5F1946047BBC26A3BD0112EA3");
+}
+.cold {
+	background-image: url("https://www.fb-service.it/wp-content/uploads/2019/04/Cold-Winter-Weather-Safety-Tips-A195839884.jpeg");
 }

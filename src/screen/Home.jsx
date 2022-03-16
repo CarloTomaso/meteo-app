@@ -21,6 +21,17 @@ function Home() {
             setlocation(data);
             setloading(false);
             sethasError(false);
+            if(data.current.temp_c >=16){
+                document.querySelector('.App').classList.add('hot');
+                document.querySelector('.App').classList.remove('cold');
+
+            };
+            if(data.current.temp_c <=16){
+                document.querySelector('.App').classList.add('cold')
+                document.querySelector('.App').classList.remove('hot');
+            }
+
+
         }      )
         .catch(err =>{ 
             setloading(true);

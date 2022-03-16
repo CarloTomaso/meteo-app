@@ -31,9 +31,9 @@ function Details() {
     console.log(details)
   return (
       <div className="container">
-         <a><FaHome className='icon' size='4em' color='white' onClick={() =>{
+         <FaHome className='icon' size='4em' color='white' onClick={() =>{
               navigate('/')
-          }} /></a>
+          }} />
      <div className="containerCard">
     {loading ?null: details.forecast.forecastday.map((e) => {
          return  <CardDetails 

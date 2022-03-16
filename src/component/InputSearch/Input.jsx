@@ -15,7 +15,9 @@ console.log(value)
     <input type="text" placeholder='Inserisci la città' value={value} onChange={function (ev) {
             setvalue(ev.target.value);
             onChange(ev.target.value);
-        }} />
+        }}
+      
+        />
    {children}
     </div>
   )

@@ -7,7 +7,7 @@ function Card({name,region,country,degree,img,humidity,wind,text}) {
     const navigate = useNavigate()
   return (
     <div className="card" onClick={() => {
-        navigate('/details' + name )
+        navigate('/details/' + name )
     }}>
         <h2>{name}</h2>
         <h1>{degree}°C</h1>

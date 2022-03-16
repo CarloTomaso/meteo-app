@@ -47,11 +47,10 @@ function Home() {
 
   return (
       <>
-        <InputSearch value={citta} onChange={(valore) => {
+        <InputSearch value={citta}  onChange={(valore) => {
             setcitta(valore)
         }} >
             <a onClick={(e) => {
-                
                 fetchLocation();
         }}><img src={search} /></a>
         </InputSearch>

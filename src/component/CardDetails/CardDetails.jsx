@@ -20,6 +20,7 @@ function CardDetails({name,degree,img,text,humidity,wind,region,country,date}) {
             <h4>wind : {wind} mph</h4>
         </div>
         </div>
+      
         <div className="region">
             <h3>{region}</h3>
             <h3>{country}</h3>

@@ -33,6 +33,7 @@ function Details() {
       <div className="container">
          <FaHome className='icon' size='4em' color='white' onClick={() =>{
               navigate('/')
+            
           }} />
      <div className="containerCard">
     {loading ?null: details.forecast.forecastday.map((e) => {

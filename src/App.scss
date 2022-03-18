@@ -6,9 +6,11 @@
 	font-family: "Montserrat";
 }
 .App {
+	height: 100vh;
+	width: 100vh;
 	text-align: center;
 	background-color: aqua;
-	padding: 0 200px 200px 200px;
+	padding: 0 300px 200px 400px;
 	background-image: url("https://media.istockphoto.com/photos/weather-forecast-picture-id477110708?k=20&m=477110708&s=170667a&w=0&h=ZHYBBdp8EiYpnSewH8b_Nf-c84ReSIkHpFBnw_AjXqw=");
 	background-repeat: no-repeat;
 	background-size: cover;
